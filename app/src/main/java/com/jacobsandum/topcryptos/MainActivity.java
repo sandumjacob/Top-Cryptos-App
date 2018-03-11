@@ -318,7 +318,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Crypto[] copy3 = new Crypto[cryptoList.size()];
             for (int l = 0; l < copy3.length; l++)
                 copy3[l] = cryptoList.get(l);
-            //Crypto largest1HR = new Crypto();
             Crypto largest7D;
             jIndex = 0;
             for (int i = 0; i < 10; i++) {
