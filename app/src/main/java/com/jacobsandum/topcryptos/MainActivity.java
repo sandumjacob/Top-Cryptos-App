@@ -275,7 +275,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     textView.setText(textView.getText() + top1HR[i].name + ":" + "\n" + positive + top1HR[i].percentChange1HR + "%" + "\n");
                 }
             }
-            //top1HRTextView.setText(top1HR.toString());
 
             //24 Hours
             Crypto[] copy2 = new Crypto[cryptoList.size()];
@@ -291,7 +290,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                         largest24HR = copy2[j];
                         jIndex = j;
                     }
-                    //top1HR[i] = largest1HR;
                 }
                 top24HR[i] = largest24HR;
                 copy2[jIndex] = new Crypto();
@@ -327,7 +325,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                         largest7D = copy3[j];
                         jIndex = j;
                     }
-                    //top1HR[i] = largest1HR;
                 }
                 top7D[i] = largest7D;
                 copy3[jIndex] = new Crypto();
